@@ -1,0 +1,344 @@
+body {
+    padding: 0 100px; /* Lề trái và phải */
+}
+
+
+
+/* Tùy chỉnh navbar */
+.navbar-brand {
+    font-weight: bold;
+    color: #FF6F61;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.nav-item {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 50px; /* Chiều rộng của ảnh */
+    height: 50px; /* Chiều cao của ảnh, hoặc bạn có thể để auto để duy trì tỉ lệ */
+    margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+    vertical-align: text-top; /* Giúp căn giữa ảnh với văn bản */
+}
+
+.navbar-nav .nav-item {
+    margin: 15 px; /* Căn chỉnh lề trái phải của từng mục */
+}
+/* Tùy chỉnh banner chính */
+
+.custom-bg-red {
+    background-color: #006e7b;
+    border-radius: 20px; /* Bo tròn góc với bán kính 20px */
+    padding: 30px; /* Tạo khoảng cách giữa nội dung và viền */
+}
+.Custom-bg-navbar {
+    background-color: #ffffff;
+    border-radius: 20px; /* Bo tròn góc với bán kính 20px */
+    padding: 20px; /* Tạo khoảng cách giữa nội dung và viền */
+}
+.container-fluid {
+    display: flex; /* Sử dụng Flexbox để bố trí nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: space-between; /* Tạo không gian giữa nội dung và hình ảnh */
+}
+.      
+
+.text-content h1 {
+    margin-bottom: 50px; /* Thay đổi giá trị này để điều chỉnh khoảng cách giữa h1 và p */
+}
+.text-content {
+    margin-left: 100px;
+
+}
+.btn {
+    margin-top: 15px; /* Thêm khoảng cách trên nút */
+}
+
+
+/* Flash Deals */
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: black; /* Màu chữ khi hover */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white; /* Nền trắng cho thẻ */
+    border: 1px solid #ddd; /* Viền nhẹ màu xám */
+    border-radius: 8px; /* Bo tròn góc thẻ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Đảm bảo chiều cao của thẻ là 100% */
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 15px;
+    flex-grow: 1; /* Giúp phần thân thẻ chiếm hết không gian còn lại */
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.text-danger {
+    font-size: 14px;
+}
+
+.text-muted {
+    font-size: 12px;
+    color: #888;
+}
+/* dropdown */
+.navbar .dropdown-menu {
+    background-color: #f8f9fa; /* Màu nền menu */
+    border: 1px solid #ddd; /* Viền */
+}
+
+.navbar .dropdown-item {
+    color: #333; /* Màu chữ */
+    padding: 10px 20px; /* Khoảng cách chữ */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #797c80; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+}
+
+.a {
+   color: black;
+}
+
+.navbar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Khoảng cách giữa biểu tượng và chữ */
+}
+
+
+/* Màu sắc cho các nhãn giảm giá */
+.text-danger {
+    color: red !important;
+}
+.btn {
+    margin-left: 30px;
+}
+
+/* footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-column ul li a:hover {
+    color: #007bff;
+}
+
+.footer-column form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-column form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-column form button:hover {
+    background-color: #0056b3;
+}
+
+.footer-column .checkboxes label {
+    display: block;
+    margin-top: 10px;
+    color: #666;
+}
+
+.footer-bottom {
+    padding: 20px 40px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.footer-info {
+    max-width: 400px;
+    color: #666;
+}
+
+.footer-info a {
+    color: #007bff;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    margin-right: 10px;
+}
+
+.footer-certification img {
+    width: 100px;
+}
+.about-us {
+    background-color: #e9ada8;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.card {
+    background-color: white; /* Nền trắng cho thẻ */
+    border: 1px solid #ddd; /* Viền nhẹ màu xám */
+    border-radius: 8px; /* Bo tròn góc thẻ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Đảm bảo chiều cao của thẻ là 100% */
+    margin-bottom: 20px;
+}
+
+.section-title {
+    background-color: rgb(180, 146, 146); /* Nền trắng cho thẻ */
+    border: 1px solid #c48d8d; /* Viền nhẹ màu xám */
+    border-radius: 8px; /* Bo tròn góc thẻ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Đảm bảo chiều cao của thẻ là 100% */
+    margin-bottom: 20px;
+}
+
+    .mayanhbanner {
+        width: 300px; /* Đặt chiều rộng cố định */
+        height: 200px; /* Đặt chiều cao cố định */
+        object-fit: cover; /* Giúp hình ảnh không bị méo, cắt phần thừa nếu cần */
+        display: block; /* Đảm bảo mỗi hình là một khối */
+        margin: 10px auto; /* Căn giữa hình ảnh và thêm khoảng cách giữa các ảnh */
+        border-radius: 10px; /* Tùy chọn: Bo tròn góc */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tùy chọn: Đổ bóng cho hình ảnh */
+    }
+    .button-container {
+        display: flex; /* Sử dụng flexbox để căn giữa */
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: center; /* Căn giữa theo chiều dọc (nếu có chiều cao) */
+        height: 10vh; /* Đặt chiều cao của container nếu cần */
+    }
+    
+    .btn {
+        padding: 15px 30px; /* Thay đổi kích thước của nút */
+        font-size: 18px; /* Thay đổi kích thước chữ */
+    }
+    
